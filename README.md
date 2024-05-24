@@ -14,22 +14,24 @@ The following Python packages are required:
 5.scikit-learn
 6.plotly
 
-# Project Structure
+## Project Structure
+
 1. Import Libraries
 2. Load Dataset
 3. Data Exploration
-  -Correlation Heatmap
-  -Pairplot
-4.Data Preprocessing
-5.KMeans Clustering
-  -Finding Optimal Number of Clusters
-  -Silhouette Score
-  -KMeans Clustering with Optimal Clusters
-  -PCA for Visualization
-6.Agglomerative Clustering
-  -Silhouette Score
-  -Agglomerative Clustering with Optimal Clusters
-  -PCA for Visualization
+   1. Correlation Heatmap
+   2. Pairplot
+4. Data Preprocessing
+5. KMeans Clustering
+   1. Finding Optimal Number of Clusters
+   2. Silhouette Score
+   3. KMeans Clustering with Optimal Clusters
+   4. PCA for Visualization
+6. Agglomerative Clustering
+   1. Silhouette Score
+   2. Agglomerative Clustering with Optimal Clusters
+   3. PCA for Visualization
+
 
 # Conclusion
 After analyzing the optimal number of clusters using silhouette scores for both K-means and agglomerative clustering on the country dataset, it was observed that K-means clustering resulted in tighter and more cohesive clusters compared to agglomerative clustering. The silhouette scores indicated that K-means achieved better separation between clusters and higher cohesion within clusters, leading to more distinct and well-defined groupings of countries. This suggests that K-means may be more suitable for this dataset, as it effectively captured the underlying patterns and structure in the data, resulting in more meaningful and interpretable clusters. Agglomerative clustering, on the other hand, produced clusters that were less compact and more spread out, indicating lower cohesion and potentially overlapping clusters. Overall, based on the analysis, K-means clustering appeared to be more effective in partitioning the countries into distinct and homogeneous groups based on their socio-economic and health factors.
