@@ -5,14 +5,17 @@ This project involves clustering countries based on various socio-economic and h
 # Dataset
 The dataset contains socio-economic and health indicators for multiple countries. It encompasses a wide range of variables including child mortality rates, exports and imports as a percentage of GDP, health expenditure relative to GDP, per capita income, inflation rates, life expectancy, total fertility rates, and GDP per capita (GDPP). These indicators offer insights into various aspects of a country's development, including its economic performance, healthcare system, and population demographics. Analyzing this dataset allows for a comprehensive assessment of the socio-economic and health status of different countries, facilitating comparisons and identifying areas for potential intervention or policy reform.
 
-# Requirements
+## Requirements
+
 The following Python packages are required:
-1.pandas
-2.numpy
-3.matplotlib
-4.seaborn
-5.scikit-learn
-6.plotly
+
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- plotly
+
 
 ## Project Structure
 
